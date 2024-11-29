@@ -4,9 +4,9 @@ import "../App.css";
 
 import {
   IBeeConfig,
-  IMergeContent,
-  IMergeTag,
-  ISpecialLink,
+  // IMergeContent,
+  // IMergeTag,
+  // ISpecialLink,
 } from "@mailupinc/bee-plugin/dist/types/bee";
 
 const BEE_TEMPLATE_URL = "https://rsrc.getbee.io/api/templates/m-bee";
@@ -15,40 +15,40 @@ const API_AUTH_URL = "https://auth.getbee.io/apiauth";
 
 const BEE_PLUGIN_CONTAINER_ID = "bee-plugin-container";
 
-const specialLinks: ISpecialLink[] = [
-  {
-    type: "unsubscribe",
-    label: "SpecialLink.Unsubscribe",
-    link: "http://[unsubscribe]/",
-  },
-  {
-    type: "subscribe",
-    label: "SpecialLink.Subscribe",
-    link: "http://[subscribe]/",
-  },
-];
+// const specialLinks: ISpecialLink[] = [
+//   {
+//     type: "unsubscribe",
+//     label: "SpecialLink.Unsubscribe",
+//     link: "http://[unsubscribe]/",
+//   },
+//   {
+//     type: "subscribe",
+//     label: "SpecialLink.Subscribe",
+//     link: "http://[subscribe]/",
+//   },
+// ];
 
-const mergeTags: IMergeTag[] = [
-  {
-    name: "tag 1",
-    value: "[tag1]",
-  },
-  {
-    name: "tag 2",
-    value: "[tag2]",
-  },
-];
+// const mergeTags: IMergeTag[] = [
+//   {
+//     name: "tag 1",
+//     value: "[tag1]",
+//   },
+//   {
+//     name: "tag 2",
+//     value: "[tag2]",
+//   },
+// ];
 
-const mergeContents: IMergeContent[] = [
-  {
-    name: "content 1",
-    value: "[content1]",
-  },
-  {
-    name: "content 2",
-    value: "[content1]",
-  },
-];
+// const mergeContents: IMergeContent[] = [
+//   {
+//     name: "content 1",
+//     value: "[content1]",
+//   },
+//   {
+//     name: "content 2",
+//     value: "[content1]",
+//   },
+// ];
 
 const userInput = (message: string, sample: any) =>
   function handler(resolve: any, reject: any) {
@@ -178,7 +178,7 @@ const BeefreeSDKInit = () => {
         beeTest
           .start(beeConfig, template, "", { shared: false })
           .then((instance) => {
-            // console.log("promise resolve return instance", instance)
+            console.log("promise resolve return instance", instance);
           });
       })
       .catch((error) =>

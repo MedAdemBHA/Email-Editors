@@ -84,6 +84,7 @@ export default function them3() {
   const smallScene = width < 1400;
 
   useEffect(() => {
+    //@ts-ignore
     setTemplate(handler);
   }, []);
 
