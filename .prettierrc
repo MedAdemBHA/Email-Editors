@@ -1,0 +1,25 @@
+{
+  "importOrder": [
+    "^@api/*",
+    "^react/(.*)$|^react$",
+    "^react-i18next",
+    "^react-router-dom",
+    "tanstack/*",
+    "^react-hook-form",
+    "^moment",
+    "^@mui(.*)$",
+    "^@contextAPI",
+    "^@constants",
+    "^@commons",
+    "^@cards",
+    "^@helpers",
+    "^@/lib/(.*)$",
+    "^@/hooks/(.*)$",
+    "^[./][^\\.]*\\.styles$",
+    "^[./][^\\.]*\\.types$",
+    "^[./][^\\.]*\\.utils$",
+    ".*"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

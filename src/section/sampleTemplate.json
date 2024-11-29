@@ -1,0 +1,245 @@
+{
+  "version": "0.0.1",
+  "global": {
+    "version": "0.0.1",
+    "style": {
+      "fontSize": "16px",
+      "lineHeight": "1.5",
+      "fontFamily": "'Arial', sans-serif",
+      "fontWeight": "300",
+      "color": {
+        "value": "#696464",
+        "key": "--color-2",
+        "label": "Text Color",
+        "type": "text-color"
+      },
+      "background": { "color": "transparent" }
+    },
+    "heading": {
+      "h1": {
+        "style": {
+          "fontSize": "45px",
+          "lineHeight": "1.3",
+          "fontFamily": "'Arial', sans-serif",
+          "fontWeight": "700",
+          "color": {
+            "value": "#111827",
+            "key": "--color-1",
+            "label": "Heading Color",
+            "type": "text-color"
+          }
+        }
+      },
+      "h2": {
+        "style": {
+          "fontSize": "38px",
+          "lineHeight": "1.5",
+          "fontFamily": "'Arial', sans-serif",
+          "fontWeight": "700",
+          "color": {
+            "value": "#111827",
+            "key": "--color-1",
+            "label": "Heading Color",
+            "type": "text-color"
+          }
+        }
+      },
+      "h3": {
+        "style": {
+          "fontSize": "31px",
+          "lineHeight": "1.5",
+          "fontFamily": "'Arial', sans-serif",
+          "fontWeight": "700",
+          "color": {
+            "value": "#111827",
+            "key": "--color-1",
+            "label": "Heading Color",
+            "type": "text-color"
+          }
+        }
+      },
+      "h4": {
+        "style": {
+          "fontSize": "25px",
+          "lineHeight": "1.5",
+          "fontFamily": "'Arial', sans-serif",
+          "fontWeight": "700",
+          "color": {
+            "value": "#111827",
+            "key": "--color-1",
+            "label": "Heading Color",
+            "type": "text-color"
+          }
+        }
+      },
+      "h5": {
+        "style": {
+          "fontSize": "20px",
+          "lineHeight": "1.5",
+          "fontFamily": "'Arial', sans-serif",
+          "fontWeight": "700",
+          "color": {
+            "value": "#111827",
+            "key": "--color-1",
+            "label": "Heading Color",
+            "type": "text-color"
+          }
+        }
+      },
+      "h6": {
+        "style": {
+          "fontSize": "16px",
+          "lineHeight": "1.5",
+          "fontFamily": "'Arial', sans-serif",
+          "fontWeight": "700",
+          "color": {
+            "value": "#111827",
+            "key": "--color-1",
+            "label": "Heading Color",
+            "type": "text-color"
+          }
+        }
+      }
+    },
+    "settings": {
+      "_colorLastIndex": 5,
+      "_colorPaletteLastIndex": 9,
+      "activeColorPaletteIndex": 0,
+      "colors": [
+        {
+          "value": "#111827",
+          "key": "--color-1",
+          "label": "Heading Color",
+          "type": "text-color"
+        },
+        {
+          "value": "#696464",
+          "key": "--color-2",
+          "label": "Text Color",
+          "type": "text-color"
+        },
+        {
+          "value": "#f6f6f6",
+          "key": "--color-3",
+          "label": "Body Background Color",
+          "type": "main-body-bg"
+        },
+        {
+          "value": "#ffffff",
+          "key": "--color-4",
+          "label": "Background Color",
+          "type": "text-color"
+        }
+      ],
+      "colorPalettes": [
+        {
+          "name": "Color Palette",
+          "colors": [
+            {
+              "value": "#4338ca",
+              "key": "--color-3",
+              "label": "Primary",
+              "type": "primary-color"
+            },
+            {
+              "value": "#c7d2fe",
+              "key": "--color-6",
+              "label": "Primary Soft",
+              "type": "primary-soft-color"
+            },
+            {
+              "value": "#ffffff",
+              "key": "--color-7",
+              "label": "Primary Text Color",
+              "type": "primary-text-color"
+            },
+            {
+              "value": "#0f172a",
+              "key": "--color-1",
+              "label": "Heading Color",
+              "type": "heading-color"
+            },
+            {
+              "value": "#64748b",
+              "key": "--color-2",
+              "label": "Body Text Color",
+              "type": "body-text-color"
+            },
+            {
+              "value": "#e2e8f0",
+              "key": "--color-8",
+              "label": "Gray Soft",
+              "type": "gray-soft-color"
+            },
+            {
+              "value": "#f6f6f6",
+              "key": "--color-4",
+              "label": "Body BG",
+              "type": "body-bg-color"
+            },
+            {
+              "value": "#ffffff",
+              "key": "--color-5",
+              "label": "Container BG",
+              "type": "container-bg-color"
+            }
+          ]
+        }
+      ],
+      "general": { "lang": "en" },
+      "activeHeading": "h1",
+      "meta": {
+        "title": "Multipurpose Email Template",
+        "description": "This is meta description"
+      }
+    },
+    "media": {
+      "mobile": {
+        "heading": {
+          "h1": { "style": { "fontSize": "38px" } },
+          "h2": { "style": { "fontSize": "32px" } },
+          "h3": { "style": { "fontSize": "28px" } },
+          "h4": { "style": { "fontSize": "24px" } },
+          "h5": { "style": { "fontSize": "20px" } },
+          "h6": { "style": { "fontSize": "16px" } }
+        }
+      }
+    },
+    "tags": {
+      "a": {
+        "style": {
+          "textDecoration": "none",
+          "color": {
+            "value": "#355bfa",
+            "key": "--color-3",
+            "label": "Text Color",
+            "type": "text-color"
+          }
+        }
+      },
+      "*": { "boxSizing": "border-box" }
+    },
+    "trackingId": "3:iugvz202t3t4"
+  },
+  "pages": [
+    {
+      "id": "umfyoa22to0b",
+      "slug": null,
+      "name": "New Page",
+      "type": "PAGE",
+      "data": {
+        "style": [],
+        "heading": [],
+        "settings": {
+          "colors": [],
+          "activeHeading": "h1",
+          "meta": {
+            "title": "This is meta title",
+            "description": "This is meta description"
+          }
+        },
+        "elements": []
+      }
+    }
+  ]
+}
