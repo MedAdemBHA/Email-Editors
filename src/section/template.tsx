@@ -41,9 +41,9 @@ export default function Temp() {
         ref={mailUiEditorRef}
         onLoad={onLoad}
         options={{
-          projectId: 108,
+          projectId: 167,
           signature:
-            "1a04776ec9c697268b47ec0e70cbb21743cb526a7acaae42c7dddc931c341d12",
+            "697d6fe37a4f404ddc20060a89a3d9c8df8712f40c7ba77b0b132181a6038003",
           defaultDevice: "desktop",
           devices: ["desktop", "tablet", "mobile"],
           appearance: {
